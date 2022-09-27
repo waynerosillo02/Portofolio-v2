@@ -1,0 +1,170 @@
+/* Global Style */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');   
+*{
+    padding: 0;
+    margin: 0;
+    color: var(--tertiary);
+    font-family: 'Montserrat', sans-serif;
+}
+.dis1{
+    font-weight: 700;
+    font-size: 55px;
+}
+.dis2{
+    font-weight: 400;
+    font-size: 300%;
+}
+.dis3{
+    font-weight: 300;
+    font-size: 40px;
+}
+:root{
+    --primary : #ce0606;
+    --secondary : #1d1d1d;
+    --tertiary : #d3d3d3;
+}
+body{
+    background-color: var(--secondary);
+}
+#home{
+    background: linear-gradient(135deg, hsla(0, 0%, 11%, 0.589) 20%,hsla(0, 0%, 11%, 0.589)  ), url(images/room.gif) 
+    no-repeat center center / cover ;
+    height: 75vh;
+    
+}
+
+#contact{
+    background: linear-gradient(to right, var(--secondary), black);
+   
+}
+.button{
+    background-color: #1d1d1d;
+    color: white;
+    padding: 7px;
+    box-shadow: 3px 3px white;
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+    width: 75%;
+    border-radius: 10px ;
+}
+.button:hover{
+    background-color: white;
+    color: #1d1d1d;
+    padding: 7px;
+    box-shadow: 3px 3px #1d1d1d;
+    text-shadow: 2px 2px white;
+    font-weight: bold;
+    width: 75%;
+    border-radius: 10px ;
+    transition: 0.35s ease-in-out;
+}
+/* header */
+.headerbox{
+    background-color: var(--primary);
+    color: var(--tertiary);
+    font-size: 20px;
+    font-weight: bold
+}
+.brand{
+    text-shadow:  4px 4px black;
+    letter-spacing: 5px;
+}
+/* navlink */
+.page{
+    background-color: black;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 2px white;
+    color: white;
+    border: 1px solid black;
+    border-radius: 15px ;
+}
+.page:hover{
+    background-color: white;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 2px black;
+    color: black;
+    border: 1px solid white;
+    border-radius: 15px ;
+    transition: 0.55s ease-in-out;
+}
+
+/* end of header */
+/* Home */
+.webdev{
+    color: var(--primary);
+}
+
+
+/* End of Home */
+.box{
+    border: 1px solid var(--primary);
+    background: linear-gradient(to bottom, black, black 70%);
+}
+
+.box:hover{
+    border: 1px solid var(--primary);
+    background: linear-gradient(to bottom, var(--primary), black 70%);
+    transition: 0.55s ease-in-out;
+}
+.img{
+    filter: grayscale(1);
+}
+.img:hover{
+    filter: grayscale(0);
+    transform: scale(1.05);
+    transition: 0.35s ease-in-out;
+}
+.box2{
+    background-color: rgba(0, 0, 0, 0.432);
+}
+
+.button2{
+    width: 120px;
+    height: 30px;
+    border: none;
+    color: white;
+    background-color: #ce0606;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 white;
+    transition: 0.25s ease-out;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.button2:hover{
+    box-shadow: inset 120px 0 0 0 white;
+    color: #1d1d1d;
+    font-weight: bold;
+}
+.form-control{
+    border: 2px solid white;
+    background-color: #1d1d1d;
+    color: white;
+    border-radius: 10px ;
+}
+.form-control:focus{
+    background-color: #1d1d1d;
+    outline: none;
+    color: white;
+}
+.submit{
+    width: 130px;
+    border-radius: 15px;
+    height: 8vh;
+    background-color: #ce0606;
+    color: white;
+}
+.submit:hover{
+    color: #1d1d1d;
+    background-color: white;
+}
+footer{
+   background-color: rgba(0, 0, 0, 0.527);
+   
+}
+.fa-brands{
+    text-shadow: 2px 2px black;
+    color: white; 
+}
+
+
