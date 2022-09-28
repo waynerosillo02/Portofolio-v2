@@ -167,4 +167,10 @@ footer{
     color: white; 
 }
 
+@media only screen and (max-width: 360px) {
+    body {
+      width: 100%;
+    }
+  }
+
 
